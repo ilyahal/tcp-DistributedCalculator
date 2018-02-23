@@ -14,6 +14,7 @@
 		BB57269B2040597F00596D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5726992040597F00596D8F /* Main.storyboard */; };
 		BB5726A4204071D300596D8F /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5726A3204071D300596D8F /* Configuration.swift */; };
 		BB5726A6204099CD00596D8F /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5726A5204099CD00596D8F /* Parameter.swift */; };
+		BB5726A92040AD7400596D8F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BB5726A82040AD7400596D8F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		BB5726A3204071D300596D8F /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		BB5726A5204099CD00596D8F /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
 		BB5726A72040AC5200596D8F /* DistributedCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DistributedCalculator.entitlements; sourceTree = "<group>"; };
+		BB5726A82040AD7400596D8F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CA4D0AFCC9818B458C8138CD /* Pods-DistributedCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistributedCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-DistributedCalculator/Pods-DistributedCalculator.release.xcconfig"; sourceTree = "<group>"; };
 		E1A783D0DE43FD2D2429D5C7 /* Pods_DistributedCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DistributedCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -54,6 +56,7 @@
 		BB5726872040597F00596D8F = {
 			isa = PBXGroup;
 			children = (
+				BB5726A82040AD7400596D8F /* README.md */,
 				BB5726922040597F00596D8F /* DistributedCalculator */,
 				BB5726912040597F00596D8F /* Products */,
 				BE990D5B3D92112D1E555E9C /* Pods */,
@@ -160,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5726A92040AD7400596D8F /* README.md in Resources */,
 				BB5726982040597F00596D8F /* Assets.xcassets in Resources */,
 				BB57269B2040597F00596D8F /* Main.storyboard in Resources */,
 			);
