@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CF6C1A443A53DCD0AD8947A /* Pods_DitributedCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D032B8E466489CDC6CA730E /* Pods_DitributedCalculator.framework */; };
+		8841CDA2C25BD4CAFD6213A1 /* Pods_DistributedCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A783D0DE43FD2D2429D5C7 /* Pods_DistributedCalculator.framework */; };
 		BB5726942040597F00596D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5726932040597F00596D8F /* AppDelegate.swift */; };
 		BB5726962040597F00596D8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5726952040597F00596D8F /* ViewController.swift */; };
 		BB5726982040597F00596D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5726972040597F00596D8F /* Assets.xcassets */; };
@@ -17,18 +17,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D032B8E466489CDC6CA730E /* Pods_DitributedCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DitributedCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		70860BA4D7492C8FAA66D820 /* Pods-DitributedCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DitributedCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-DitributedCalculator/Pods-DitributedCalculator.release.xcconfig"; sourceTree = "<group>"; };
-		BB5726902040597F00596D8F /* DitributedCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DitributedCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8386C980761753F77CC495C3 /* Pods-DistributedCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistributedCalculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DistributedCalculator/Pods-DistributedCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		BB5726902040597F00596D8F /* DistributedCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistributedCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5726932040597F00596D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB5726952040597F00596D8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB5726972040597F00596D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB57269A2040597F00596D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB57269C2040597F00596D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB57269D2040597F00596D8F /* DitributedCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DitributedCalculator.entitlements; sourceTree = "<group>"; };
 		BB5726A3204071D300596D8F /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		BB5726A5204099CD00596D8F /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
-		EA5A987AE4328A62BE4325DB /* Pods-DitributedCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DitributedCalculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DitributedCalculator/Pods-DitributedCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		BB5726A72040AC5200596D8F /* DistributedCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DistributedCalculator.entitlements; sourceTree = "<group>"; };
+		CA4D0AFCC9818B458C8138CD /* Pods-DistributedCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistributedCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-DistributedCalculator/Pods-DistributedCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		E1A783D0DE43FD2D2429D5C7 /* Pods_DistributedCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DistributedCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CF6C1A443A53DCD0AD8947A /* Pods_DitributedCalculator.framework in Frameworks */,
+				8841CDA2C25BD4CAFD6213A1 /* Pods_DistributedCalculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +46,7 @@
 		352E943A2D1E0062EC44CFFE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1D032B8E466489CDC6CA730E /* Pods_DitributedCalculator.framework */,
+				E1A783D0DE43FD2D2429D5C7 /* Pods_DistributedCalculator.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -54,7 +54,7 @@
 		BB5726872040597F00596D8F = {
 			isa = PBXGroup;
 			children = (
-				BB5726922040597F00596D8F /* DitributedCalculator */,
+				BB5726922040597F00596D8F /* DistributedCalculator */,
 				BB5726912040597F00596D8F /* Products */,
 				BE990D5B3D92112D1E555E9C /* Pods */,
 				352E943A2D1E0062EC44CFFE /* Frameworks */,
@@ -64,14 +64,15 @@
 		BB5726912040597F00596D8F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB5726902040597F00596D8F /* DitributedCalculator.app */,
+				BB5726902040597F00596D8F /* DistributedCalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB5726922040597F00596D8F /* DitributedCalculator */ = {
+		BB5726922040597F00596D8F /* DistributedCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				BB5726A72040AC5200596D8F /* DistributedCalculator.entitlements */,
 				BB5726932040597F00596D8F /* AppDelegate.swift */,
 				BB5726952040597F00596D8F /* ViewController.swift */,
 				BB5726A3204071D300596D8F /* Configuration.swift */,
@@ -79,16 +80,15 @@
 				BB5726972040597F00596D8F /* Assets.xcassets */,
 				BB5726992040597F00596D8F /* Main.storyboard */,
 				BB57269C2040597F00596D8F /* Info.plist */,
-				BB57269D2040597F00596D8F /* DitributedCalculator.entitlements */,
 			);
-			path = DitributedCalculator;
+			path = DistributedCalculator;
 			sourceTree = "<group>";
 		};
 		BE990D5B3D92112D1E555E9C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EA5A987AE4328A62BE4325DB /* Pods-DitributedCalculator.debug.xcconfig */,
-				70860BA4D7492C8FAA66D820 /* Pods-DitributedCalculator.release.xcconfig */,
+				8386C980761753F77CC495C3 /* Pods-DistributedCalculator.debug.xcconfig */,
+				CA4D0AFCC9818B458C8138CD /* Pods-DistributedCalculator.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -96,9 +96,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB57268F2040597F00596D8F /* DitributedCalculator */ = {
+		BB57268F2040597F00596D8F /* DistributedCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB5726A02040597F00596D8F /* Build configuration list for PBXNativeTarget "DitributedCalculator" */;
+			buildConfigurationList = BB5726A02040597F00596D8F /* Build configuration list for PBXNativeTarget "DistributedCalculator" */;
 			buildPhases = (
 				FFC88F18EF980FAAF9902C3D /* [CP] Check Pods Manifest.lock */,
 				BB57268C2040597F00596D8F /* Sources */,
@@ -111,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = DitributedCalculator;
+			name = DistributedCalculator;
 			productName = DitributedCalculator;
-			productReference = BB5726902040597F00596D8F /* DitributedCalculator.app */;
+			productReference = BB5726902040597F00596D8F /* DistributedCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,10 +129,15 @@
 					BB57268F2040597F00596D8F = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = BB57268B2040597F00596D8F /* Build configuration list for PBXProject "DitributedCalculator" */;
+			buildConfigurationList = BB57268B2040597F00596D8F /* Build configuration list for PBXProject "DistributedCalculator" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB57268F2040597F00596D8F /* DitributedCalculator */,
+				BB57268F2040597F00596D8F /* DistributedCalculator */,
 			);
 		};
 /* End PBXProject section */
@@ -169,7 +174,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DitributedCalculator/Pods-DitributedCalculator-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-DistributedCalculator/Pods-DistributedCalculator-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -178,7 +183,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DitributedCalculator/Pods-DitributedCalculator-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DistributedCalculator/Pods-DistributedCalculator-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BBD0E7E30524F001454F41ED /* [CP] Copy Pods Resources */ = {
@@ -193,7 +198,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DitributedCalculator/Pods-DitributedCalculator-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DistributedCalculator/Pods-DistributedCalculator-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FFC88F18EF980FAAF9902C3D /* [CP] Check Pods Manifest.lock */ = {
@@ -207,7 +212,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DitributedCalculator-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DistributedCalculator-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -350,34 +355,38 @@
 		};
 		BB5726A12040597F00596D8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA5A987AE4328A62BE4325DB /* Pods-DitributedCalculator.debug.xcconfig */;
+			baseConfigurationReference = 8386C980761753F77CC495C3 /* Pods-DistributedCalculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DitributedCalculator/DitributedCalculator.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DistributedCalculator/DistributedCalculator.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5PQ3T7YGZE;
-				INFOPLIST_FILE = DitributedCalculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DistributedCalculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.ilyahal.DitributedCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		BB5726A22040597F00596D8F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70860BA4D7492C8FAA66D820 /* Pods-DitributedCalculator.release.xcconfig */;
+			baseConfigurationReference = CA4D0AFCC9818B458C8138CD /* Pods-DistributedCalculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DitributedCalculator/DitributedCalculator.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DistributedCalculator/DistributedCalculator.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5PQ3T7YGZE;
-				INFOPLIST_FILE = DitributedCalculator/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DistributedCalculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.ilyahal.DitributedCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -385,7 +394,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB57268B2040597F00596D8F /* Build configuration list for PBXProject "DitributedCalculator" */ = {
+		BB57268B2040597F00596D8F /* Build configuration list for PBXProject "DistributedCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB57269E2040597F00596D8F /* Debug */,
@@ -394,7 +403,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB5726A02040597F00596D8F /* Build configuration list for PBXNativeTarget "DitributedCalculator" */ = {
+		BB5726A02040597F00596D8F /* Build configuration list for PBXNativeTarget "DistributedCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB5726A12040597F00596D8F /* Debug */,

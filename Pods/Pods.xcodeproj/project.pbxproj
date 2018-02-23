@@ -7,73 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E19A3B533899F43E1D9712678941F48 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
-		2C83500F8D4EE566C9102B2287656BA4 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FF9585981F7B619C85C2C6E4DCF91 /* Socket.swift */; };
-		58E30903851025018714F54D156A921F /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886AD7CDE1F5CC782474EF3443C2BA56 /* UDPClient.swift */; };
-		5FCC5F827E5F62D5C5BAA83B0BCA8D4C /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 5752BCCE211EF17F51DD509637DDD333 /* yudpsocket.c */; };
-		64908024D4ED782807DC2A66AD2FA852 /* Pods-DitributedCalculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59B90EFA14192FC91D55197157752085 /* Pods-DitributedCalculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EE1492C3E6F15C64365DA4D93FFBFB8 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4EEBEF28F2D922BF256FED95DA86C /* Result.swift */; };
-		7EDE9D7777D1C9CA644ED49F4AAE1A78 /* Pods-DitributedCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 582888F12ADF20E661C0FE1202278A9E /* Pods-DitributedCalculator-dummy.m */; };
-		AC665862F7B99D90D3D14F8B174CFAB4 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 21E505997513D83AFD4626EECDFF20D1 /* ytcpsocket.c */; };
-		B04611C2CAF5CCAC29206618677A144A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
-		C21E86D026A9C4931C936EF27EF57AEB /* SwiftSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 566633F20D21C285C3F09F065316813F /* SwiftSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E364DD6EB8CDE213D345478243F3C7B0 /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073B5E44A489A40FEBFC1148C40D1B5 /* TCPClient.swift */; };
-		E545232E023CDDE0D1A19B082A14FCD2 /* SwiftSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EF3006C7C4B084D70916C2736D38C1 /* SwiftSocket-dummy.m */; };
+		0C4A90FBFAA4B3F7E32B947603023B6A /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886AD7CDE1F5CC782474EF3443C2BA56 /* UDPClient.swift */; };
+		575C320262ECF35BC8F46F3379B2DCE5 /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073B5E44A489A40FEBFC1148C40D1B5 /* TCPClient.swift */; };
+		79EAF3B1A6D86FBF66B70B708DE5716D /* Pods-DistributedCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E11AFE578EEB63D1D49D3C48771390B /* Pods-DistributedCalculator-dummy.m */; };
+		858A5242E72B331075923CCBAC884D01 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 21E505997513D83AFD4626EECDFF20D1 /* ytcpsocket.c */; };
+		887E0C66D4B236474BDFB17ACEE09CEE /* Pods-DistributedCalculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EB61E4BCF148BB1914DE36E907EC52 /* Pods-DistributedCalculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A09816C8791D962E60EC9D46C74DBDEB /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FF9585981F7B619C85C2C6E4DCF91 /* Socket.swift */; };
+		B5703D03B8478975D00C49F70B171207 /* SwiftSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EF3006C7C4B084D70916C2736D38C1 /* SwiftSocket-dummy.m */; };
+		C0E4DCBA845585DA405D2FFFC594C530 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4EEBEF28F2D922BF256FED95DA86C /* Result.swift */; };
+		C2AD0DDC56FA29A11C8BAEC28949F00F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		C7566233FFD57BA99D2B70BCDA6B9881 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		EA8C792CA907CC538871D54400A19994 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 5752BCCE211EF17F51DD509637DDD333 /* yudpsocket.c */; };
+		F58652440D6A22B43A228C4CEC7B5314 /* SwiftSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 566633F20D21C285C3F09F065316813F /* SwiftSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A521EB86CFA47578FB17EDCB47368F66 /* PBXContainerItemProxy */ = {
+		C9831DE1E1A0648D9E24DEC4BC51DCA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7516F6D58F81CABBCA72018645B433F0;
+			remoteGlobalIDString = 0BB786578B2FBCA57EE19F1BD2D876F2;
 			remoteInfo = SwiftSocket;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E9D3336B0762417221EDB9AA788FE81 /* Pods-DistributedCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DistributedCalculator.modulemap"; sourceTree = "<group>"; };
+		1E11AFE578EEB63D1D49D3C48771390B /* Pods-DistributedCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DistributedCalculator-dummy.m"; sourceTree = "<group>"; };
+		2052796EE5A20812DCFF84EF78ED69BB /* Pods_DistributedCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DistributedCalculator.framework; path = "Pods-DistributedCalculator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E505997513D83AFD4626EECDFF20D1 /* ytcpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ytcpsocket.c; path = Sources/ytcpsocket.c; sourceTree = "<group>"; };
 		270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		30EB61E4BCF148BB1914DE36E907EC52 /* Pods-DistributedCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DistributedCalculator-umbrella.h"; sourceTree = "<group>"; };
 		31F93E7113EED69B088AB532C45E5FC0 /* SwiftSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-prefix.pch"; sourceTree = "<group>"; };
-		37A667BB772E2A28838018E372385335 /* Pods-DitributedCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DitributedCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
-		3CD3BA878B7E1743DA6C089A7E7C5401 /* Pods-DitributedCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DitributedCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4177260C847D5C73AC51046AD30C6865 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A63ED85AF4B1D3995957354FE1CFFA3 /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSocket.framework; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF696E39257A3EA9F9B6B7E52C9DEA8 /* Pods-DistributedCalculator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DistributedCalculator-resources.sh"; sourceTree = "<group>"; };
+		50633249895946FA893DA528A23396EC /* Pods-DistributedCalculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DistributedCalculator-frameworks.sh"; sourceTree = "<group>"; };
 		566633F20D21C285C3F09F065316813F /* SwiftSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-umbrella.h"; sourceTree = "<group>"; };
 		5752BCCE211EF17F51DD509637DDD333 /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yudpsocket.c; path = Sources/yudpsocket.c; sourceTree = "<group>"; };
-		582888F12ADF20E661C0FE1202278A9E /* Pods-DitributedCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DitributedCalculator-dummy.m"; sourceTree = "<group>"; };
-		59B90EFA14192FC91D55197157752085 /* Pods-DitributedCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DitributedCalculator-umbrella.h"; sourceTree = "<group>"; };
-		5FB950CEEB593BF662B0ED609AAACE27 /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSocket.framework; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFC59144A8961468420D67D389E8D85 /* Pods-DistributedCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DistributedCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		75BF7991A81CFAC5657D220B465E03B0 /* Pods-DistributedCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DistributedCalculator.debug.xcconfig"; sourceTree = "<group>"; };
 		777B780574BE2141C0C5A02EA2518BF7 /* SwiftSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftSocket.modulemap; sourceTree = "<group>"; };
-		7DBA0CF399AEDD866FCA6AF835D58E57 /* Pods-DitributedCalculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DitributedCalculator-frameworks.sh"; sourceTree = "<group>"; };
-		86D31E80C85313835781EDDBDFE3CCF1 /* Pods-DitributedCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DitributedCalculator.release.xcconfig"; sourceTree = "<group>"; };
 		886AD7CDE1F5CC782474EF3443C2BA56 /* UDPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UDPClient.swift; path = Sources/UDPClient.swift; sourceTree = "<group>"; };
-		90B5AC07D9C294159F69B85D5BB38406 /* Pods-DitributedCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DitributedCalculator.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97127948B567B5DF799BECE808D6BFBF /* SwiftSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSocket.xcconfig; sourceTree = "<group>"; };
 		9CF22CB071D3465975A47DF95BAEFB51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9ED4EEBEF28F2D922BF256FED95DA86C /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
+		9EEFA99A36711353D750583CA013152C /* Pods-DistributedCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DistributedCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
 		B9EF3006C7C4B084D70916C2736D38C1 /* SwiftSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSocket-dummy.m"; sourceTree = "<group>"; };
 		C073B5E44A489A40FEBFC1148C40D1B5 /* TCPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPClient.swift; path = Sources/TCPClient.swift; sourceTree = "<group>"; };
-		C7BCDAB5179AD76E77378F5CC53F5F3A /* Pods-DitributedCalculator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DitributedCalculator-resources.sh"; sourceTree = "<group>"; };
-		DBD8C48C361E8317C00C65FB15D3B75A /* Pods-DitributedCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DitributedCalculator.modulemap"; sourceTree = "<group>"; };
 		DD7FF9585981F7B619C85C2C6E4DCF91 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket.swift; sourceTree = "<group>"; };
-		E150F27780A49E7B386B95977611CC97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6D877593C9583A793A59D0CDC1F940B /* Pods_DitributedCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DitributedCalculator.framework; path = "Pods-DitributedCalculator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4FC70413C20C1B6486EC8D9208CC5D /* Pods-DistributedCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DistributedCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5AF7211200F8BE00E43EFBFC9EB56EB7 /* Frameworks */ = {
+		3E0C2C212F4E5DF785E07880E3F2C05A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B04611C2CAF5CCAC29206618677A144A /* Cocoa.framework in Frameworks */,
+				C7566233FFD57BA99D2B70BCDA6B9881 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DA565C9482EDB4A1B0A72D8F5FCC014 /* Frameworks */ = {
+		54EDCBC24D95BEF0EB053CEB2D6CBBA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E19A3B533899F43E1D9712678941F48 /* Cocoa.framework in Frameworks */,
+				C2AD0DDC56FA29A11C8BAEC28949F00F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,23 +96,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		189D4E977BC8B29D160D95375BC0AE8D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E6D877593C9583A793A59D0CDC1F940B /* Pods_DitributedCalculator.framework */,
-				5FB950CEEB593BF662B0ED609AAACE27 /* SwiftSocket.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2C367D6CA771428284966B01FF37A1BD /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				47FD1212F8563BEB49601EC394C21ABE /* Pods-DitributedCalculator */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,22 +104,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		47FD1212F8563BEB49601EC394C21ABE /* Pods-DitributedCalculator */ = {
+		688AFCD72810A98C8F1FD097B62872B8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E150F27780A49E7B386B95977611CC97 /* Info.plist */,
-				DBD8C48C361E8317C00C65FB15D3B75A /* Pods-DitributedCalculator.modulemap */,
-				3CD3BA878B7E1743DA6C089A7E7C5401 /* Pods-DitributedCalculator-acknowledgements.markdown */,
-				37A667BB772E2A28838018E372385335 /* Pods-DitributedCalculator-acknowledgements.plist */,
-				582888F12ADF20E661C0FE1202278A9E /* Pods-DitributedCalculator-dummy.m */,
-				7DBA0CF399AEDD866FCA6AF835D58E57 /* Pods-DitributedCalculator-frameworks.sh */,
-				C7BCDAB5179AD76E77378F5CC53F5F3A /* Pods-DitributedCalculator-resources.sh */,
-				59B90EFA14192FC91D55197157752085 /* Pods-DitributedCalculator-umbrella.h */,
-				90B5AC07D9C294159F69B85D5BB38406 /* Pods-DitributedCalculator.debug.xcconfig */,
-				86D31E80C85313835781EDDBDFE3CCF1 /* Pods-DitributedCalculator.release.xcconfig */,
+				A356CA9077802969654F102B8C333D53 /* Pods-DistributedCalculator */,
 			);
-			name = "Pods-DitributedCalculator";
-			path = "Target Support Files/Pods-DitributedCalculator";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -145,9 +118,27 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
 				04F81F21E9B2EFE1074777E2D2759FF9 /* Pods */,
-				189D4E977BC8B29D160D95375BC0AE8D /* Products */,
-				2C367D6CA771428284966B01FF37A1BD /* Targets Support Files */,
+				FA77BF2572E25098708EA8434B8CB46D /* Products */,
+				688AFCD72810A98C8F1FD097B62872B8 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		A356CA9077802969654F102B8C333D53 /* Pods-DistributedCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				4177260C847D5C73AC51046AD30C6865 /* Info.plist */,
+				0E9D3336B0762417221EDB9AA788FE81 /* Pods-DistributedCalculator.modulemap */,
+				DF4FC70413C20C1B6486EC8D9208CC5D /* Pods-DistributedCalculator-acknowledgements.markdown */,
+				9EEFA99A36711353D750583CA013152C /* Pods-DistributedCalculator-acknowledgements.plist */,
+				1E11AFE578EEB63D1D49D3C48771390B /* Pods-DistributedCalculator-dummy.m */,
+				50633249895946FA893DA528A23396EC /* Pods-DistributedCalculator-frameworks.sh */,
+				4BF696E39257A3EA9F9B6B7E52C9DEA8 /* Pods-DistributedCalculator-resources.sh */,
+				30EB61E4BCF148BB1914DE36E907EC52 /* Pods-DistributedCalculator-umbrella.h */,
+				75BF7991A81CFAC5657D220B465E03B0 /* Pods-DistributedCalculator.debug.xcconfig */,
+				6CFC59144A8961468420D67D389E8D85 /* Pods-DistributedCalculator.release.xcconfig */,
+			);
+			name = "Pods-DistributedCalculator";
+			path = "Target Support Files/Pods-DistributedCalculator";
 			sourceTree = "<group>";
 		};
 		A44A66ADA1344DA9E7A74277DE6C0CE1 /* SwiftSocket */ = {
@@ -179,35 +170,44 @@
 			path = "../Target Support Files/SwiftSocket";
 			sourceTree = "<group>";
 		};
+		FA77BF2572E25098708EA8434B8CB46D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2052796EE5A20812DCFF84EF78ED69BB /* Pods_DistributedCalculator.framework */,
+				4A63ED85AF4B1D3995957354FE1CFFA3 /* SwiftSocket.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		CF57EEB675B2B48832F8F264C5621C17 /* Headers */ = {
+		C1C127EF963AFCD22E7E1F9166761E0F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C21E86D026A9C4931C936EF27EF57AEB /* SwiftSocket-umbrella.h in Headers */,
+				F58652440D6A22B43A228C4CEC7B5314 /* SwiftSocket-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFF9A41EE78AFDD173A082CB0968CCD9 /* Headers */ = {
+		E2F4693C0F9ACFA2348E5A62DAF6C2BB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64908024D4ED782807DC2A66AD2FA852 /* Pods-DitributedCalculator-umbrella.h in Headers */,
+				887E0C66D4B236474BDFB17ACEE09CEE /* Pods-DistributedCalculator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7516F6D58F81CABBCA72018645B433F0 /* SwiftSocket */ = {
+		0BB786578B2FBCA57EE19F1BD2D876F2 /* SwiftSocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB7FA4F91BFC2450385DF38661B59FC8 /* Build configuration list for PBXNativeTarget "SwiftSocket" */;
+			buildConfigurationList = 30188F99475F5EE41BDFE2B92CF13865 /* Build configuration list for PBXNativeTarget "SwiftSocket" */;
 			buildPhases = (
-				0A48AE10A1A8586FB3A864BC93C72C98 /* Sources */,
-				8DA565C9482EDB4A1B0A72D8F5FCC014 /* Frameworks */,
-				CF57EEB675B2B48832F8F264C5621C17 /* Headers */,
+				3E06AFCE4896B296303F9B8929F51046 /* Sources */,
+				3E0C2C212F4E5DF785E07880E3F2C05A /* Frameworks */,
+				C1C127EF963AFCD22E7E1F9166761E0F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -215,25 +215,25 @@
 			);
 			name = SwiftSocket;
 			productName = SwiftSocket;
-			productReference = 5FB950CEEB593BF662B0ED609AAACE27 /* SwiftSocket.framework */;
+			productReference = 4A63ED85AF4B1D3995957354FE1CFFA3 /* SwiftSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		826EF417113DBCA2DFE1D5CF55031C72 /* Pods-DitributedCalculator */ = {
+		2369C96CE13819D33B51F5206D24DD87 /* Pods-DistributedCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FE1A3D1FD8E923B1C7BCC11B269B173 /* Build configuration list for PBXNativeTarget "Pods-DitributedCalculator" */;
+			buildConfigurationList = 0BE0205E83FEA3DD47CE736CBA5C0450 /* Build configuration list for PBXNativeTarget "Pods-DistributedCalculator" */;
 			buildPhases = (
-				B342C42EB9E22B6F62BB19BA312F5DAC /* Sources */,
-				5AF7211200F8BE00E43EFBFC9EB56EB7 /* Frameworks */,
-				FFF9A41EE78AFDD173A082CB0968CCD9 /* Headers */,
+				AE48A72C1B8E8E264BBA34C09AE25CDF /* Sources */,
+				54EDCBC24D95BEF0EB053CEB2D6CBBA5 /* Frameworks */,
+				E2F4693C0F9ACFA2348E5A62DAF6C2BB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				60EC7B7BE9CAA3DFDA7FA17E9AA8C494 /* PBXTargetDependency */,
+				C22AF344745F3A7D0E7B785A5277B75D /* PBXTargetDependency */,
 			);
-			name = "Pods-DitributedCalculator";
-			productName = "Pods-DitributedCalculator";
-			productReference = E6D877593C9583A793A59D0CDC1F940B /* Pods_DitributedCalculator.framework */;
+			name = "Pods-DistributedCalculator";
+			productName = "Pods-DistributedCalculator";
+			productReference = 2052796EE5A20812DCFF84EF78ED69BB /* Pods_DistributedCalculator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -253,51 +253,118 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 189D4E977BC8B29D160D95375BC0AE8D /* Products */;
+			productRefGroup = FA77BF2572E25098708EA8434B8CB46D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				826EF417113DBCA2DFE1D5CF55031C72 /* Pods-DitributedCalculator */,
-				7516F6D58F81CABBCA72018645B433F0 /* SwiftSocket */,
+				2369C96CE13819D33B51F5206D24DD87 /* Pods-DistributedCalculator */,
+				0BB786578B2FBCA57EE19F1BD2D876F2 /* SwiftSocket */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A48AE10A1A8586FB3A864BC93C72C98 /* Sources */ = {
+		3E06AFCE4896B296303F9B8929F51046 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EE1492C3E6F15C64365DA4D93FFBFB8 /* Result.swift in Sources */,
-				2C83500F8D4EE566C9102B2287656BA4 /* Socket.swift in Sources */,
-				E545232E023CDDE0D1A19B082A14FCD2 /* SwiftSocket-dummy.m in Sources */,
-				E364DD6EB8CDE213D345478243F3C7B0 /* TCPClient.swift in Sources */,
-				58E30903851025018714F54D156A921F /* UDPClient.swift in Sources */,
-				AC665862F7B99D90D3D14F8B174CFAB4 /* ytcpsocket.c in Sources */,
-				5FCC5F827E5F62D5C5BAA83B0BCA8D4C /* yudpsocket.c in Sources */,
+				C0E4DCBA845585DA405D2FFFC594C530 /* Result.swift in Sources */,
+				A09816C8791D962E60EC9D46C74DBDEB /* Socket.swift in Sources */,
+				B5703D03B8478975D00C49F70B171207 /* SwiftSocket-dummy.m in Sources */,
+				575C320262ECF35BC8F46F3379B2DCE5 /* TCPClient.swift in Sources */,
+				0C4A90FBFAA4B3F7E32B947603023B6A /* UDPClient.swift in Sources */,
+				858A5242E72B331075923CCBAC884D01 /* ytcpsocket.c in Sources */,
+				EA8C792CA907CC538871D54400A19994 /* yudpsocket.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B342C42EB9E22B6F62BB19BA312F5DAC /* Sources */ = {
+		AE48A72C1B8E8E264BBA34C09AE25CDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EDE9D7777D1C9CA644ED49F4AAE1A78 /* Pods-DitributedCalculator-dummy.m in Sources */,
+				79EAF3B1A6D86FBF66B70B708DE5716D /* Pods-DistributedCalculator-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		60EC7B7BE9CAA3DFDA7FA17E9AA8C494 /* PBXTargetDependency */ = {
+		C22AF344745F3A7D0E7B785A5277B75D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftSocket;
-			target = 7516F6D58F81CABBCA72018645B433F0 /* SwiftSocket */;
-			targetProxy = A521EB86CFA47578FB17EDCB47368F66 /* PBXContainerItemProxy */;
+			target = 0BB786578B2FBCA57EE19F1BD2D876F2 /* SwiftSocket */;
+			targetProxy = C9831DE1E1A0648D9E24DEC4BC51DCA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		40B5C2CABF45E263E8270A4EFD3C9AE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BF7991A81CFAC5657D220B465E03B0 /* Pods-DistributedCalculator.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-DistributedCalculator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-DistributedCalculator/Pods-DistributedCalculator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DistributedCalculator;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A7C65D58D55256802BEF6E3D13FB4A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97127948B567B5DF799BECE808D6BFBF /* SwiftSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
+				PRODUCT_NAME = SwiftSocket;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7A580D893249EFCBDBEA83EE658FEF8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -358,7 +425,7 @@
 			};
 			name = Debug;
 		};
-		82036DECF3E8741DBF1FA8C505F2D4BC /* Release */ = {
+		A68B43ACBEAF09D3CED541B5E99B3108 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 97127948B567B5DF799BECE808D6BFBF /* SwiftSocket.xcconfig */;
 			buildSettings = {
@@ -383,16 +450,16 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		9F94E897B90D7BD30844664CD185E22D /* Debug */ = {
+		BA248887A798AEC74C86BDF67916C270 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90B5AC07D9C294159F69B85D5BB38406 /* Pods-DitributedCalculator.debug.xcconfig */;
+			baseConfigurationReference = 6CFC59144A8961468420D67D389E8D85 /* Pods-DistributedCalculator.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -405,25 +472,24 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-DitributedCalculator/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DistributedCalculator/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-DitributedCalculator/Pods-DitributedCalculator.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DistributedCalculator/Pods-DistributedCalculator.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DitributedCalculator;
+				PRODUCT_NAME = Pods_DistributedCalculator;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		E8B0732F7D3E5BB15C212C29C806F741 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -480,75 +546,18 @@
 			};
 			name = Release;
 		};
-		EC35ED57382685F7BB68EE504C9002EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86D31E80C85313835781EDDBDFE3CCF1 /* Pods-DitributedCalculator.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-DitributedCalculator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-DitributedCalculator/Pods-DitributedCalculator.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DitributedCalculator;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F9A90660A6BBA2102494B77C09C48BF9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97127948B567B5DF799BECE808D6BFBF /* SwiftSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftSocket/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
-				PRODUCT_NAME = SwiftSocket;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0BE0205E83FEA3DD47CE736CBA5C0450 /* Build configuration list for PBXNativeTarget "Pods-DistributedCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B5C2CABF45E263E8270A4EFD3C9AE8 /* Debug */,
+				BA248887A798AEC74C86BDF67916C270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -558,20 +567,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FE1A3D1FD8E923B1C7BCC11B269B173 /* Build configuration list for PBXNativeTarget "Pods-DitributedCalculator" */ = {
+		30188F99475F5EE41BDFE2B92CF13865 /* Build configuration list for PBXNativeTarget "SwiftSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F94E897B90D7BD30844664CD185E22D /* Debug */,
-				EC35ED57382685F7BB68EE504C9002EE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB7FA4F91BFC2450385DF38661B59FC8 /* Build configuration list for PBXNativeTarget "SwiftSocket" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F9A90660A6BBA2102494B77C09C48BF9 /* Debug */,
-				82036DECF3E8741DBF1FA8C505F2D4BC /* Release */,
+				A68B43ACBEAF09D3CED541B5E99B3108 /* Debug */,
+				4A7C65D58D55256802BEF6E3D13FB4A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

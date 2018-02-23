@@ -1,0 +1,6 @@
+framework module Pods_DistributedCalculator {
+  umbrella header "Pods-DistributedCalculator-umbrella.h"
+
+  export *
+  module * { export * }
+}

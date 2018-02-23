@@ -12,9 +12,9 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="DitributedCalculator" id="1Xt-HY-uBw">
+                            <menuItem title="DistributedCalculator" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="DitributedCalculator" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="DistributedCalculator" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
                                         <menuItem title="Hide" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
@@ -337,7 +337,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="442" height="97"/>
                                             <clipView key="contentView" copiesOnScroll="NO" id="mDq-fx-p9c">
                                                 <rect key="frame" x="1" y="1" width="440" height="95"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <autoresizingMask key="autoresizingMask"/>
                                                 <subviews>
                                                     <textView importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="B1X-dW-y3L">
                                                         <rect key="frame" x="0.0" y="0.0" width="440" height="95"/>

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_DitributedCalculatorVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_DitributedCalculatorVersionString[];
+FOUNDATION_EXPORT double Pods_DistributedCalculatorVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_DistributedCalculatorVersionString[];
 

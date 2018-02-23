@@ -1,7 +1,7 @@
 platform :osx, '10.10'
 use_frameworks!
 
-target 'DitributedCalculator' do
+target 'DistributedCalculator' do
 
   pod 'SwiftSocket'
 
