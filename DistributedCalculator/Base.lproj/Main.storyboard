@@ -255,7 +255,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="DitributedCalculator" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="DistributedCalculator" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -265,8 +265,8 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Ditributed Calculator" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" id="IQv-IB-iLA">
-                        <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
+                    <window key="window" title="Distributed Calculator" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" id="IQv-IB-iLA">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
@@ -285,7 +285,7 @@
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="DitributedCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="DistributedCalculator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="494"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -306,7 +306,7 @@
                                                 <font key="font" metaFont="system"/>
                                             </buttonCell>
                                             <connections>
-                                                <action selector="selectListFileButtonClicked:" target="XfG-lQ-9wD" id="vdQ-6k-cnC"/>
+                                                <action selector="selectListFileButtonClicked:" target="XfG-lQ-9wD" id="Iih-lL-X3S"/>
                                             </connections>
                                         </button>
                                         <pathControl verticalHuggingPriority="750" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pXT-Nr-HIZ">
@@ -337,7 +337,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="442" height="97"/>
                                             <clipView key="contentView" copiesOnScroll="NO" id="mDq-fx-p9c">
                                                 <rect key="frame" x="1" y="1" width="440" height="95"/>
-                                                <autoresizingMask key="autoresizingMask"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <textView importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="B1X-dW-y3L">
                                                         <rect key="frame" x="0.0" y="0.0" width="440" height="95"/>
@@ -366,9 +366,6 @@
                                         <constraint firstAttribute="trailing" secondItem="1bR-0J-tNK" secondAttribute="trailing" id="tN1-bi-wsh"/>
                                     </constraints>
                                 </view>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="110" id="Ay5-6o-iBt"/>
-                                </constraints>
                             </box>
                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uiF-uq-wnK">
                                 <rect key="frame" x="20" y="452" width="50" height="22"/>
@@ -394,7 +391,7 @@
                                                 <font key="font" metaFont="system"/>
                                             </buttonCell>
                                             <connections>
-                                                <action selector="selectConfigurationFileButtonClicked:" target="XfG-lQ-9wD" id="qw0-8m-VB5"/>
+                                                <action selector="selectConfigurationFileButtonClicked:" target="XfG-lQ-9wD" id="nyb-Qh-IxH"/>
                                             </connections>
                                         </button>
                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="F5x-N0-Yz7">
@@ -404,7 +401,7 @@
                                                 <font key="font" metaFont="system"/>
                                             </buttonCell>
                                             <connections>
-                                                <action selector="runCalculation:" target="XfG-lQ-9wD" id="eAU-me-Ju2"/>
+                                                <action selector="runCalculation:" target="XfG-lQ-9wD" id="Wnb-Vv-V93"/>
                                             </connections>
                                         </button>
                                         <pathControl verticalHuggingPriority="750" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P1R-Wp-px6">
@@ -449,7 +446,7 @@
                                                 <font key="font" metaFont="system"/>
                                             </buttonCell>
                                             <connections>
-                                                <action selector="serverStartClicked:" target="XfG-lQ-9wD" id="3NM-qQ-twX"/>
+                                                <action selector="serverStartClicked:" target="XfG-lQ-9wD" id="7Zh-f9-gwg"/>
                                             </connections>
                                         </button>
                                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1uM-EV-who">
@@ -459,7 +456,7 @@
                                                 <font key="font" metaFont="system"/>
                                             </buttonCell>
                                             <connections>
-                                                <action selector="serverStopClicked:" target="XfG-lQ-9wD" id="84P-Kw-N4K"/>
+                                                <action selector="serverStopClicked:" target="XfG-lQ-9wD" id="VZV-HV-ANR"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -498,18 +495,18 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="configurationFilePathControl" destination="P1R-Wp-px6" id="f4T-od-Zf1"/>
-                        <outlet property="listFilePathControl" destination="pXT-Nr-HIZ" id="JSJ-Hy-J1L"/>
-                        <outlet property="logTextView" destination="B1X-dW-y3L" id="Bqd-dF-BMU"/>
-                        <outlet property="portTextField" destination="uiF-uq-wnK" id="Q7X-eI-r6t"/>
-                        <outlet property="serverIpTextField" destination="pg7-j7-9B6" id="kAh-RF-9cP"/>
-                        <outlet property="serverStartButton" destination="61A-KX-Xhv" id="pyD-hv-dtr"/>
-                        <outlet property="serverStopButton" destination="1uM-EV-who" id="sW3-so-Ctk"/>
+                        <outlet property="configurationFilePathControl" destination="P1R-Wp-px6" id="ruD-RO-xhv"/>
+                        <outlet property="listFilePathControl" destination="pXT-Nr-HIZ" id="kWS-MF-c3J"/>
+                        <outlet property="logTextView" destination="B1X-dW-y3L" id="Er2-Ge-qrT"/>
+                        <outlet property="portTextField" destination="uiF-uq-wnK" id="vyZ-Zj-qMl"/>
+                        <outlet property="serverIpTextField" destination="pg7-j7-9B6" id="KLL-dK-CPh"/>
+                        <outlet property="serverStartButton" destination="61A-KX-Xhv" id="urg-Ca-ZYm"/>
+                        <outlet property="serverStopButton" destination="1uM-EV-who" id="1Fa-qG-kds"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="768.5"/>
+            <point key="canvasLocation" x="75" y="768"/>
         </scene>
     </scenes>
 </document>
