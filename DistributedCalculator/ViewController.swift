@@ -214,8 +214,12 @@ private extension ViewController {
         guard configuration.parameters.first?.action == "r" else { return }
         let parameter = configuration.parameters.removeFirst()
         
-        let result = pow(configuration.enteringNumber, 1.0 / parameter.value)
-        configuration.enteringNumber = result
+        if parameter.value == 0 {
+            configuration.enteringNumber = 0
+        } else {
+            let result = pow(configuration.enteringNumber, 1.0 / parameter.value)
+            configuration.enteringNumber = result
+        }
     }
     
     /// Запустить клиента
@@ -231,7 +235,8 @@ private extension ViewController {
             log(message: "Первая операция: \(configuration.parameters.first?.action ?? "") \(configuration.parameters.first?.value ?? 0)")
             log(message: "")
             
-            let data = configuration.data!
+            guard let data = configuration.data else { return }
+            
             switch client.send(data: data) {
             case .success:
                 log(message: "Данные успешно отправлены: \(data)")
