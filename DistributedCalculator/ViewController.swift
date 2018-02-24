@@ -337,6 +337,8 @@ private extension ViewController {
                 if configuration.parameters.first?.action == "=" {
                     log(message: "Результат вычислений: \(configuration.enteringNumber)")
                     log(message: "")
+                    
+                    NSSound.beep()
                 } else {
                     guard let randomIp = self.randomIp else { continue }
                     
