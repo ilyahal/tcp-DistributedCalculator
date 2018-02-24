@@ -24,6 +24,9 @@ final class Configuration: Decodable {
     init?(data: Data) {
         guard let string = String(data: data, encoding: .ascii) else { return nil }
         
+        print("Data -> Configuration [length: \(string.count)]")
+        print(string)
+        
         let endLine = "\r\n"
         var items = string.components(separatedBy: endLine).filter { !$0.isEmpty }
         
@@ -57,6 +60,9 @@ extension Configuration {
         
         let endLine = "\r\n"
         let string = items.map { $0 + endLine }.reduce("") { $0 + $1 }
+        
+        print("Configuration -> Data [length: \(string.count)]")
+        print(string)
         
         let data = string.data(using: .ascii)
         return data
